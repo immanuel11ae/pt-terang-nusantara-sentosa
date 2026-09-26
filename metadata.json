@@ -1,0 +1,6 @@
+{
+  "name": "PT. Terang Nusantara Sentosa",
+  "description": "Firma Konsultan Pajak, Manajemen & Keuangan Terpercaya di Jabodetabek & Nasional. Solusi perpajakan korporasi, kepatuhan Coretax DJP, transfer pricing, dan advokasi Pengadilan Pajak.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
