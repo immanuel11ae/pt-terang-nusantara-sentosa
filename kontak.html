@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontak | PT. Terang Nusantara Sentosa</title>
+  <meta name="description" content="Hubungi PT. Terang Nusantara Sentosa untuk konsultasi pajak rahasia - formulir permohonan advis, kontak WhatsApp, email, alamat kantor Teluknaga, dan FAQ seputar sesi konsultasi." />
+  <meta property="og:title" content="Kontak | PT. Terang Nusantara Sentosa" />
+  <meta property="og:description" content="Hubungi PT. Terang Nusantara Sentosa untuk konsultasi pajak rahasia - formulir permohonan advis, kontak WhatsApp, email, alamat kantor Teluknaga, dan FAQ seputar sesi konsultasi." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://tnsconsulting.co.id/kontak.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body class="bg-[#121317] text-[#e3e2e8] antialiased selection:bg-[#f6a000] selection:text-[#121317] min-h-screen flex flex-col">
+
+  <header class="fixed top-0 left-0 right-0 z-50 bg-[#0d0e12]/90 backdrop-blur-md border-b border-[#4d4635]/40">
+    <div class="h-20 max-w-[1440px] mx-auto px-5 md:px-12 flex items-center justify-between gap-6">
+      <a href="index.html" class="flex items-center gap-4 shrink-0">
+        <span class="tns-logo-chip"><img alt="Logo PT. Terang Nusantara Sentosa" class="tns-logo-mark" src="assets/tns-logo-white-transparent.png" /></span>
+        <div class="flex flex-col">
+          <span class="font-['Plus_Jakarta_Sans'] font-semibold text-[15px] sm:text-[16px] tracking-tight text-[#e3e2e8] uppercase">PT. Terang Nusantara Sentosa</span>
+          <span class="font-['Plus_Jakarta_Sans'] text-[11px] font-bold text-[#e4c277] tracking-[0.08em] uppercase">Tax, Management &amp; Finance Advisory</span>
+        </div>
+      </a>
+
+      <nav class="hidden xl:flex items-center gap-6">
+        <a href="index.html" class="py-1 text-[14px] font-semibold text-[#d0c5af] hover:text-[#e3e2e8]">Beranda</a>
+        <a href="tentang-kami.html" class="py-1 text-[14px] font-semibold text-[#d0c5af] hover:text-[#e3e2e8]">Tentang Kami</a>
+        <a href="layanan.html" class="py-1 text-[14px] font-semibold text-[#d0c5af] hover:text-[#e3e2e8]">Layanan</a>
+        <a href="klien-testimoni.html" class="py-1 text-[14px] font-semibold text-[#d0c5af] hover:text-[#e3e2e8]">Klien &amp; Testimoni</a>
+        <a href="kontak.html" class="py-1 text-[14px] font-semibold text-[#f2ca50] border-b-2 border-[#f2ca50]">Kontak</a>
+      </nav>
+
+      <div class="flex items-center gap-4 shrink-0">
+        <a class="hidden sm:flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-[#1a1b20] border border-[#4d4635]/60 hover:border-[#d4af37] text-[#e3e2e8] hover:text-[#f2ca50] transition-all" href="https://wa.me/6287817582369?text=Halo%20PT.%20Terang%20Nusantara%20Sentosa,%20saya%20ingin%20berkonsultasi%20terkait%20perpajakan%20korporasi." target="_blank" rel="noopener noreferrer">
+          <span class="material-symbols-outlined text-[18px] text-[#f2ca50]">call</span>
+          <span class="text-[14px] font-semibold tabular-nums">+62 878-1758-2369</span>
+        </a>
+
+        <a href="kontak.html" class="inline-flex items-center justify-center px-4 py-2.5 rounded bg-[#d4af37] text-[#554300] text-[13px] sm:text-[14px] font-bold tracking-wide hover:bg-[#f2ca50] transition-all shadow-[0_0_16px_rgba(212,175,55,0.2)]">
+          <span class="uppercase tracking-wider">Hubungi Kami</span>
+        </a>
+
+        <button onclick="openConsultationModal()" title="Akses Konsultasi Terbimbing" class="w-8 h-8 rounded-full bg-[#f2ca50] flex items-center justify-center shrink-0 hover:scale-105 transition-transform">
+          <span class="material-symbols-outlined text-[#3c2f00] text-[18px]">person</span>
+        </button>
+
+        <button onclick="toggleMobileMenu()" class="xl:hidden p-2 rounded text-[#e3e2e8] hover:text-[#f2ca50] hover:bg-[#1f1f24] transition-colors" aria-label="Toggle navigation menu">
+          <span id="menuIcon" class="material-symbols-outlined text-[24px]">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobileDrawer" class="hidden xl:hidden bg-[#0d0e12]/98 border-b border-[#4d4635]/60 px-5 py-4 space-y-2 backdrop-blur-xl">
+      <div class="flex flex-col space-y-1">
+        <a href="index.html" class="text-left px-3 py-2.5 rounded text-[15px] font-medium text-[#d0c5af] hover:text-[#e3e2e8] hover:bg-[#1a1b20]">Beranda</a>
+        <a href="tentang-kami.html" class="text-left px-3 py-2.5 rounded text-[15px] font-medium text-[#d0c5af] hover:text-[#e3e2e8] hover:bg-[#1a1b20]">Tentang Kami</a>
+        <a href="layanan.html" class="text-left px-3 py-2.5 rounded text-[15px] font-medium text-[#d0c5af] hover:text-[#e3e2e8] hover:bg-[#1a1b20]">Layanan</a>
+        <a href="klien-testimoni.html" class="text-left px-3 py-2.5 rounded text-[15px] font-medium text-[#d0c5af] hover:text-[#e3e2e8] hover:bg-[#1a1b20]">Klien &amp; Testimoni</a>
+        <a href="kontak.html" class="text-left px-3 py-2.5 rounded text-[15px] font-medium bg-[#1f1f24] text-[#f2ca50] font-semibold border-l-2 border-[#f2ca50]">Kontak</a>
+      </div>
+      <div class="pt-3 border-t border-[#4d4635]/30 flex flex-col gap-2">
+        <a href="https://wa.me/6287817582369" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-2 px-4 py-2.5 rounded bg-[#1a1b20] border border-[#4d4635] text-[#e3e2e8] hover:text-[#f2ca50] text-[14px] font-semibold">
+          <span class="material-symbols-outlined text-[18px] text-[#f2ca50]">call</span>
+          <span>+62 878-1758-2369 (WhatsApp)</span>
+        </a>
+        <button onclick="openConsultationModal()" class="w-full py-2.5 rounded bg-[#d4af37] text-[#554300] font-bold text-[14px] uppercase tracking-wider">Jadwalkan Konsultasi Rahasia</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-1 w-full">
+    <div class="flex flex-col w-full">
+      <div class="relative w-full overflow-hidden bg-[#0d0e12]">
+        <div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[720px] h-[360px] bg-gradient-to-b from-[#f2ca50]/10 via-[#d4af37]/5 to-transparent blur-3xl pointer-events-none rounded-full"></div>
+
+        <!-- Header -->
+        <section class="relative max-w-[1440px] mx-auto px-5 md:px-12 pt-28 pb-10">
+          <div class="flex flex-col items-start gap-3 max-w-4xl">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#292a2e] border border-[#4d4635]/40 text-[#e4c277]">
+              <span class="material-symbols-outlined text-[16px] text-[#f2ca50]">verified_user</span>
+              <span class="text-[11px] font-bold tracking-wider uppercase">PUSAT KOMUNIKASI &amp; KONSULTASI</span>
+            </div>
+            <h1 class="font-['Playfair_Display'] text-[30px] sm:text-[42px] md:text-[50px] font-semibold text-[#e3e2e8] tracking-tight text-left leading-[1.15]">Mulai Diskusi Rahasia &amp; Jadwalkan Konsultasi Fiskal</h1>
+            <p class="text-[15px] sm:text-[16px] text-[#d0c5af] max-w-3xl leading-relaxed">Tim konsultan pajak berlisensi BKP dan kuasa hukum pengadilan kami siap membantu menuntaskan tantangan kepatuhan fiskal, mitigasi risiko sanksi administrasi, dan penataan arsitektur finansial korporasi Anda dengan standar diskresi tertinggi.</p>
+
+            <div class="flex flex-wrap items-center gap-3 pt-2">
+              <div class="flex items-center gap-2 px-3 py-1.5 rounded bg-[#1a1b20] border border-[#4d4635]/40 text-[#d0c5af] text-[12px] shadow-sm"><span class="material-symbols-outlined text-[#f2ca50] text-[18px]">lock</span><span>NDA &amp; Perlindungan Kerahasiaan 100%</span></div>
+              <div class="flex items-center gap-2 px-3 py-1.5 rounded bg-[#1a1b20] border border-[#4d4635]/40 text-[#d0c5af] text-[12px] shadow-sm"><span class="material-symbols-outlined text-[#f2ca50] text-[18px]">gavel</span><span>Kuasa Hukum Terdaftar Pengadilan Pajak</span></div>
+              <div class="flex items-center gap-2 px-3 py-1.5 rounded bg-[#1a1b20] border border-[#4d4635]/40 text-[#d0c5af] text-[12px] shadow-sm"><span class="material-symbols-outlined text-[#f2ca50] text-[18px]">timer</span><span>Respon Cepat &lt; 24 Jam Kerja</span></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2 Kolom: Form & Info Kantor -->
+        <section class="max-w-[1440px] mx-auto px-5 md:px-12 pb-20">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+
+            <!-- Kolom Kiri: Form -->
+            <div class="lg:col-span-7 bg-[#1a1b20] border border-[#4d4635]/50 rounded-xl p-6 sm:p-8 shadow-xl relative overflow-hidden">
+              <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#d4af37] to-transparent opacity-80"></div>
+
+              <div class="flex flex-col gap-2 mb-6">
+                <div class="flex items-center justify-between">
+                  <span class="text-[11px] font-bold uppercase text-[#e4c277]">Protokol Permohonan Klien</span>
+                  <span class="px-2 py-0.5 rounded bg-[#343439] text-[#e4c277] text-[11px] font-bold">Status: Jalur Prioritas</span>
+                </div>
+                <h2 class="font-['Playfair_Display'] text-[22px] md:text-[26px] font-semibold text-[#e3e2e8]">Formulir Permohonan Advis Pajak</h2>
+                <div class="flex items-start gap-2.5 p-3 rounded bg-[#1f1f24] border border-[#4d4635]/40 mt-1">
+                  <span class="material-symbols-outlined text-[#f2ca50] text-[18px] shrink-0 mt-0.5">security</span>
+                  <p class="text-[12px] text-[#d0c5af] leading-relaxed">Seluruh data identitas korporat dan rincian pembukuan dilindungi secara mutlak di bawah kode etik Ikatan Konsultan Pajak Indonesia (IKPI) dan klausul Non-Disclosure Agreement (NDA).</p>
+                </div>
+              </div>
+
+              <div id="contactFormView">
+                <form class="flex flex-col gap-4" onsubmit="handleContactSubmit(event)">
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="flex flex-col gap-1.5">
+                      <label class="font-semibold text-[13px] text-[#e3e2e8]" for="contactFullName">Nama Lengkap &amp; Gelar <span class="text-[#f2ca50]">*</span></label>
+                      <div class="relative">
+                        <span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-[18px] text-[#99907c]">badge</span>
+                        <input id="contactFullName" type="text" required placeholder="misal: Hendra Wijaya, S.E., M.Ak." class="w-full bg-[#121317] border border-[#4d4635]/60 text-[#e3e2e8] placeholder-[#99907c] text-[14px] rounded pl-10 pr-3.5 py-3 focus:outline-none focus:border-[#d4af37] transition-all" />
+                      </div>
+                    </div>
+                    <div class="flex flex-col gap-1.5">
+                      <label class="font-semibold text-[13px] text-[#e3e2e8]" for="contactCompanyName">Nama Perusahaan / Korporat <span class="text-[#f2ca50]">*</span></label>
+                      <div class="relative">
+                        <span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-[18px] text-[#99907c]">apartment</span>
+                        <input id="contactCompanyName" type="text" required placeholder="misal: PT Mega Cahaya Sentosa" class="w-full bg-[#121317] border border-[#4d4635]/60 text-[#e3e2e8] placeholder-[#99907c] text-[14px] rounded pl-10 pr-3.5 py-3 focus:outline-none focus:border-[#d4af37] transition-all" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="flex flex-col gap-1.5">
+                      <label class="font-semibold text-[13px] text-[#e3e2e8]" for="contactEmail">Email Korporat Resmi <span class="text-[#f2ca50]">*</span></label>
+                      <div class="relative">
+                        <span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-[18px] text-[#99907c]">mail</span>
+                        <input id="contactEmail" type="email" required placeholder="direksi@company.co.id" class="w-full bg-[#121317] border border-[#4d4635]/60 text-[#e3e2e8] placeholder-[#99907c] text-[14px] rounded pl-10 pr-3.5 py-3 focus:outline-none focus:border-[#d4af37] transition-all" />
+                      </div>
+                    </div>
+                    <div class="flex flex-col gap-1.5">
+                      <label class="font-semibold text-[13px] text-[#e3e2e8]" for="contactPhone">Nomor Telepon / WhatsApp <span class="text-[#f2ca50]">*</span></label>
+                      <div class="relative">
+                        <span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-[18px] text-[#99907c]">phone</span>
+                        <input id="contactPhone" type="tel" required placeholder="+62 812-3456-7890" class="w-full bg-[#121317] border border-[#4d4635]/60 text-[#e3e2e8] placeholder-[#99907c] text-[14px] rounded pl-10 pr-3.5 py-3 focus:outline-none focus:border-[#d4af37] transition-all" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex flex-col gap-1.5">
+                    <label class="font-semibold text-[13px] text-[#e3e2e8] flex items-center justify-between" for="contactService">
+                      <span>Kebutuhan Layanan Spesifik <span class="text-[#f2ca50]">*</span></span>
+                      <span class="text-[12px] text-[#e4c277]">Pilih Domain Permasalahan</span>
+                    </label>
+                    <div class="relative">
+                      <span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-[18px] text-[#99907c] pointer-events-none">assignment</span>
+                      <select id="contactService" required class="w-full bg-[#121317] border border-[#4d4635]/60 text-[#e3e2e8] text-[14px] rounded pl-10 pr-10 py-3 appearance-none focus:outline-none focus:border-[#d4af37] transition-all cursor-pointer">
+                        <option value="" disabled selected class="text-[#99907c]">Pilih Kebutuhan Layanan Perpajakan</option>
+                        <option value="perencanaan-pajak" class="bg-[#1f1f24]">Konsultasi &amp; Perencanaan Pajak Komprehensif (Tax Planning)</option>
+                        <option value="pelaporan-spt-coretax" class="bg-[#1f1f24]">Pelaporan SPT Masa &amp; Tahunan (Kesiapan Coretax DJP)</option>
+                        <option value="pemeriksaan-sp2dk" class="bg-[#1f1f24]">Pendampingan Pemeriksaan Pajak (SP2DK / Risalah Temuan SPHP)</option>
+                        <option value="restitusi-korporasi" class="bg-[#1f1f24]">Restitusi Pajak Korporat &amp; Ekspor (PPN / PPh Badan)</option>
+                        <option value="keberatan-banding-pengadilan" class="bg-[#1f1f24]">Keberatan, Banding, &amp; Gugatan Pengadilan Pajak RI</option>
+                        <option value="due-diligence-ma" class="bg-[#1f1f24]">Tax Due Diligence &amp; Restrukturisasi M&amp;A Korporasi</option>
+                        <option value="transfer-pricing" class="bg-[#1f1f24]">Transfer Pricing Documentation (Master File, Local File, CbCR)</option>
+                        <option value="pajak-internasional" class="bg-[#1f1f24]">Konsultasi Pajak Internasional &amp; Penerapan Tax Treaty P3B</option>
+                      </select>
+                      <span class="material-symbols-outlined absolute right-3.5 top-1/2 -translate-y-1/2 text-[20px] text-[#99907c] pointer-events-none">expand_more</span>
+                    </div>
+                  </div>
+
+                  <div class="flex flex-col gap-1.5">
+                    <label class="font-semibold text-[13px] text-[#e3e2e8] flex items-center justify-between" for="contactFiscalSummary">
+                      <span>Ringkasan Situasi Fiskal / Kebutuhan <span class="text-[#f2ca50]">*</span></span>
+                      <span class="text-[12px] text-[#99907c]">Maks. 500 kata</span>
+                    </label>
+                    <textarea id="contactFiscalSummary" required rows="4" placeholder="Deskripsikan kondisi audit, tenggat surat DJP (jika ada SP2DK), estimasi tahun pajak yang ditinjau, atau latar belakang restrukturisasi bisnis korporasi Anda secara singkat..." class="w-full bg-[#121317] border border-[#4d4635]/60 text-[#e3e2e8] placeholder-[#99907c] text-[14px] rounded p-3.5 focus:outline-none focus:border-[#d4af37] transition-all resize-none"></textarea>
+                  </div>
+
+                  <div class="p-3.5 rounded bg-[#1f1f24] border border-[#4d4635]/30 flex items-start gap-3">
+                    <input id="contactNdaConsent" type="checkbox" checked required class="mt-1 w-4 h-4 rounded bg-[#121317] accent-[#d4af37] cursor-pointer shrink-0" />
+                    <label for="contactNdaConsent" class="text-[12px] text-[#d0c5af] cursor-pointer select-none leading-relaxed">Saya mengonfirmasi bahwa data yang saya kirimkan merupakan permohonan resmi dan memberikan izin kepada Tim Konsultan Senior <span class="text-[#e4c277] font-semibold">PT. Terang Nusantara Sentosa</span> untuk menghubungi melalui email/WhatsApp guna penjadwalan sesi konsultasi pendahuluan yang terlindungi kerahasiaannya.</label>
+                  </div>
+
+                  <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
+                    <button id="contactSubmitBtn" type="submit" class="w-full sm:w-auto px-7 py-3.5 rounded bg-[#d4af37] hover:bg-[#f2ca50] text-[#554300] text-[14px] tracking-wider uppercase font-bold transition-all shadow-[0_0_20px_rgba(212,175,55,0.25)] flex items-center justify-center gap-2">
+                      <span id="contactSubmitLabel">Kirim Permohonan Konsultasi Strategis</span>
+                      <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+                    </button>
+                    <div class="flex items-center gap-2 text-[#d0c5af] text-[12px]">
+                      <span class="w-2.5 h-2.5 rounded-full bg-[#f2ca50] animate-pulse shrink-0"></span>
+                      <span>Konsultan Siaga: Siap Ditugaskan</span>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div id="contactSuccessView" class="hidden p-6 rounded-xl bg-[#1f1f24] border border-[#f2ca50]/40 text-[#e3e2e8] space-y-4 text-center fade-in">
+                <div class="w-14 h-14 mx-auto rounded-full bg-[#5d4604]/50 border border-[#f2ca50] flex items-center justify-center text-[#f2ca50]"><span class="material-symbols-outlined text-[32px]">task_alt</span></div>
+                <h3 class="font-['Playfair_Display'] text-[22px] font-semibold text-[#e3e2e8]">Permohonan Konsultasi Berhasil Terkirim</h3>
+                <p class="text-[14px] text-[#d0c5af] max-w-md mx-auto leading-relaxed">Terima kasih <strong id="contactSuccessName" class="text-[#f2ca50]"></strong> dari <strong id="contactSuccessCompany" class="text-[#e3e2e8]"></strong>. Permohonan Anda telah terdaftar dalam sistem reservasi prioritas kami. Partner fiskal TNS akan meninjau materi awal dan menghubungi Anda dalam kurun waktu maksimal 12 jam kerja.</p>
+                <div class="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
+                  <button onclick="handleContactWhatsApp()" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded bg-[#d4af37] text-[#554300] font-bold text-[13px] uppercase tracking-wider hover:bg-[#f2ca50] transition-all"><span class="material-symbols-outlined text-[18px]">chat</span><span>Konfirmasi via WhatsApp</span></button>
+                  <button onclick="resetContactForm()" class="w-full sm:w-auto px-5 py-3 rounded bg-[#292a2e] text-[#e3e2e8] hover:text-[#f2ca50] text-[13px] font-semibold transition-colors">Kirim Formulir Lain</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Kolom Kanan: Info Kantor -->
+            <div class="lg:col-span-5 flex flex-col gap-6">
+              <div class="bg-[#1a1b20] border border-[#4d4635]/40 rounded-xl p-6 shadow-xl flex flex-col gap-4 relative overflow-hidden">
+                <div class="flex items-center justify-between border-b border-[#4d4635]/30 pb-3">
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-[#f2ca50] text-[20px]">corporate_fare</span><span class="text-[11px] font-bold uppercase text-[#e4c277]">Kantor Operasional &amp; Konsultasi</span></div>
+                  <span class="text-[11px] font-bold text-[#d0c5af]">KAB. TANGERANG</span>
+                </div>
+
+                <div class="flex flex-col gap-2">
+                  <h3 class="font-semibold text-[17px] text-[#e3e2e8]">Kantor Pusat TNS Consulting</h3>
+                  <div class="flex items-start gap-2 text-[#d0c5af] text-[13px]">
+                    <span class="material-symbols-outlined text-[#f2ca50] text-[18px] shrink-0 mt-0.5">location_on</span>
+                    <span class="leading-relaxed">Ruko Mutiara Garuda Blok C12 No. 4B, Kampung Melayu Timur, Teluknaga, Kabupaten Tangerang, Banten 15510</span>
+                  </div>
+                  <div class="mt-2 p-3 rounded bg-[#1f1f24] border border-[#4d4635]/30 flex items-center gap-3">
+                    <span class="material-symbols-outlined text-[#e4c277] text-[22px]">flight</span>
+                    <div class="flex flex-col">
+                      <span class="text-[10px] font-bold uppercase text-[#e4c277] tracking-wider">Aksesibilitas Strategis</span>
+                      <span class="text-[12px] text-[#e3e2e8]">Hanya 15 Menit dari Bandara Internasional Soekarno-Hatta (CGK)</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flex flex-col gap-3 pt-2">
+                  <a class="p-3.5 rounded bg-[#1f1f24] hover:bg-[#292a2e] border border-[#4d4635]/40 transition-colors flex items-center justify-between group" href="https://wa.me/6287817582369" rel="noopener noreferrer" target="_blank">
+                    <div class="flex items-center gap-3">
+                      <div class="w-10 h-10 rounded-full bg-[#f2ca50]/10 flex items-center justify-center text-[#f2ca50] group-hover:bg-[#f2ca50] group-hover:text-[#3c2f00] transition-all shrink-0"><span class="material-symbols-outlined text-[20px]">chat</span></div>
+                      <div class="flex flex-col"><span class="text-[11px] font-bold uppercase text-[#99907c]">Hotline Konsultasi Cepat (WhatsApp)</span><span class="text-[15px] font-bold text-[#e3e2e8] group-hover:text-[#f2ca50] transition-colors tabular-nums">+62 878-1758-2369</span></div>
+                    </div>
+                    <span class="material-symbols-outlined text-[#f2ca50] text-[20px] group-hover:translate-x-1 transition-transform">open_in_new</span>
+                  </a>
+
+                  <div class="p-3.5 rounded bg-[#1f1f24] border border-[#4d4635]/40 flex flex-col gap-2">
+                    <div class="flex items-center gap-2 text-[#99907c]"><span class="material-symbols-outlined text-[16px]">alternate_email</span><span class="text-[11px] font-bold uppercase">Korespondensi Email Resmi</span></div>
+                    <div class="flex flex-col gap-1.5 pl-6">
+                      <a class="text-[13px] text-[#e3e2e8] hover:text-[#f2ca50] transition-colors flex items-center gap-1.5" href="mailto:info@tnsconsulting.co.id"><span>info@tnsconsulting.co.id</span><span class="text-[11px] text-[#99907c]">(Advis Korporasi)</span></a>
+                      <a class="text-[13px] text-[#e3e2e8] hover:text-[#f2ca50] transition-colors flex items-center gap-1.5" href="mailto:deasy@tnsconsulting.co.id"><span>deasy@tnsconsulting.co.id</span><span class="text-[11px] text-[#99907c]">(Managing Partner Desk)</span></a>
+                    </div>
+                  </div>
+
+                  <div class="p-3.5 rounded bg-[#1f1f24] border border-[#4d4635]/40 flex items-start gap-3">
+                    <span class="material-symbols-outlined text-[#f2ca50] text-[20px] shrink-0 mt-0.5">schedule</span>
+                    <div class="flex flex-col gap-1 text-[#e3e2e8] w-full">
+                      <span class="text-[11px] font-bold uppercase text-[#99907c]">Jam Pelayanan Kantor</span>
+                      <div class="flex justify-between gap-4 text-[12px]"><span class="text-[#d0c5af]">Senin - Jumat:</span><span class="font-semibold text-[#e3e2e8] tabular-nums">08:30 - 17:30 WIB</span></div>
+                      <div class="flex justify-between gap-4 text-[12px]"><span class="text-[#d0c5af]">Sabtu - Minggu:</span><span class="text-[#e4c277] font-medium">Khusus Sidang / Janji Temu Direksi</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Map Card -->
+              <div class="bg-[#1a1b20] border border-[#4d4635]/40 rounded-xl overflow-hidden shadow-xl flex flex-col">
+                <div class="p-4 bg-[#1f1f24] border-b border-[#4d4635]/30 flex items-center justify-between">
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-[#f2ca50] text-[18px]">map</span><span class="font-semibold text-[14px] text-[#e3e2e8]">Peta Lokasi Kantor Pusat</span></div>
+                  <a class="text-[11px] font-bold text-[#f2ca50] hover:text-[#e4c277] flex items-center gap-1 uppercase transition-colors" href="https://maps.google.com/?q=Ruko+Mutiara+Garuda+Blok+C12+No+4B+Teluknaga+Tangerang" rel="noopener noreferrer" target="_blank"><span>Petunjuk Arah</span><span class="material-symbols-outlined text-[14px]">directions</span></a>
+                </div>
+                <div class="relative w-full h-56">
+                  <iframe title="Peta Lokasi Kantor TNS" class="w-full h-full border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Ruko%20Mutiara%20Garuda%20Blok%20C12%20No%204B%20Teluknaga%20Tangerang&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+                </div>
+                <div class="p-3 bg-[#1f1f24] text-center border-t border-[#4d4635]/30">
+                  <p class="text-[12px] text-[#d0c5af]">Tersedia area parkir representatif dan ruang pertemuan berstandar kerahasiaan eksekutif untuk konsultasi tatap muka.</p>
+                </div>
+              </div>
+
+              <!-- Quick WA Card -->
+              <div class="p-4 rounded-xl bg-gradient-to-r from-[#292a2e] to-[#1f1f24] border border-[#4d4635] flex items-center justify-between gap-4">
+                <div class="flex items-center gap-3">
+                  <span class="material-symbols-outlined text-[#f2ca50] text-[28px]">support_agent</span>
+                  <div class="flex flex-col"><span class="font-semibold text-[14px] text-[#e3e2e8]">Butuh Tanggapan SP2DK Mendesak?</span><span class="text-[12px] text-[#d0c5af]">Konsultasikan surat konfirmasi DJP Anda dalam 1 jam kerja</span></div>
+                </div>
+                <a class="px-3.5 py-2 rounded bg-[#0d0e12] text-[#f2ca50] hover:text-[#e3e2e8] text-[11px] font-bold uppercase shrink-0 transition-colors border border-[#4d4635]/40" href="https://wa.me/6287817582369?text=Halo%20TNS,%20kami%20memerlukan%20asistensi%20mendesak%20terkait%20surat%20pajak%20SP2DK." rel="noopener noreferrer" target="_blank">Chat Segera</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="max-w-[1440px] mx-auto px-5 md:px-12 pb-20">
+          <div class="flex flex-col gap-2 mb-8">
+            <span class="text-[11px] font-bold uppercase text-[#e4c277] tracking-widest">Pusat Tanya Jawab Klien</span>
+            <h2 class="font-['Playfair_Display'] text-[26px] md:text-[32px] font-semibold text-[#e3e2e8]">Pertanyaan Umum Seputar Sesi Konsultasi</h2>
+            <p class="text-[15px] text-[#d0c5af] max-w-2xl">Pedoman tata laksana, jaminan privasi, serta skema pendampingan hukum dan administrasi perpajakan di PT. Terang Nusantara Sentosa.</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="bg-[#1a1b20] border border-[#4d4635]/40 rounded-xl p-6 flex flex-col justify-between shadow-lg relative group transition-all hover:bg-[#1f1f24]">
+              <div class="flex flex-col gap-3">
+                <div class="w-10 h-10 rounded-full bg-[#1f1f24] flex items-center justify-center text-[#f2ca50] group-hover:bg-[#d4af37] group-hover:text-[#554300] transition-colors"><span class="material-symbols-outlined text-[20px]">lock_clock</span></div>
+                <h3 class="font-semibold text-[16px] text-[#e3e2e8]">Apakah konsultasi awal bersifat rahasia?</h3>
+                <p class="text-[13px] text-[#d0c5af] leading-relaxed">Ya, mutlak. Setiap pertukaran dokumen, catatan keuangan, dan diskusi strategis dilindungi oleh klausul kerahasiaan profesi konsultan pajak terdaftar serta perjanjian tertulis <span class="text-[#e3e2e8] font-medium">Non-Disclosure Agreement (NDA)</span> yang kami terbitkan sebelum evaluasi perkara dimulai.</p>
+              </div>
+              <div class="pt-4 mt-4 border-t border-[#4d4635]/30 flex items-center gap-1.5 text-[#e4c277] text-[11px] font-bold uppercase"><span class="material-symbols-outlined text-[16px]">verified</span><span>Standar Discretionary IKPI</span></div>
+            </div>
+
+            <div class="bg-[#1a1b20] border border-[#4d4635]/40 rounded-xl p-6 flex flex-col justify-between shadow-lg relative group transition-all hover:bg-[#1f1f24]">
+              <div class="flex flex-col gap-3">
+                <div class="w-10 h-10 rounded-full bg-[#1f1f24] flex items-center justify-center text-[#f2ca50] group-hover:bg-[#d4af37] group-hover:text-[#554300] transition-colors"><span class="material-symbols-outlined text-[20px]">domain</span></div>
+                <h3 class="font-semibold text-[16px] text-[#e3e2e8]">Apakah melayani klien di luar wilayah Jabodetabek?</h3>
+                <p class="text-[13px] text-[#d0c5af] leading-relaxed">Ya. Portofolio kami mencakup korporasi manufaktur, perkebunan, pertambangan, dan trading di seluruh Indonesia. Kami menyelenggarakan sesi konsultasi komprehensif melalui platform digital terenkripsi (Zoom / Google Meet) serta kunjungan berkala onsite oleh konsultan senior kami ke kantor operasional Anda.</p>
+              </div>
+              <div class="pt-4 mt-4 border-t border-[#4d4635]/30 flex items-center gap-1.5 text-[#e4c277] text-[11px] font-bold uppercase"><span class="material-symbols-outlined text-[16px]">travel_explore</span><span>Cakupan Nasional &amp; Hybrid</span></div>
+            </div>
+
+            <div class="bg-[#1a1b20] border border-[#4d4635]/40 rounded-xl p-6 flex flex-col justify-between shadow-lg relative group transition-all hover:bg-[#1f1f24]">
+              <div class="flex flex-col gap-3">
+                <div class="w-10 h-10 rounded-full bg-[#1f1f24] flex items-center justify-center text-[#f2ca50] group-hover:bg-[#d4af37] group-hover:text-[#554300] transition-colors"><span class="material-symbols-outlined text-[20px]">bolt</span></div>
+                <h3 class="font-semibold text-[16px] text-[#e3e2e8]">Berapa lama waktu pendampingan SP2DK?</h3>
+                <p class="text-[13px] text-[#d0c5af] leading-relaxed">Mengingat batas waktu 14 hari kerja yang ditetapkan DJP, tim kami melakukan penelaahan data dan rekonsiliasi faktur dalam <span class="text-[#e3e2e8] font-medium">1-3 hari kerja</span> untuk merumuskan draf tanggapan tertulis resmi serta simulasi klarifikasi sebelum menghadapi Account Representative (AR).</p>
+              </div>
+              <div class="pt-4 mt-4 border-t border-[#4d4635]/30 flex items-center gap-1.5 text-[#e4c277] text-[11px] font-bold uppercase"><span class="material-symbols-outlined text-[16px]">speed</span><span>Tanggap Waktu DJP &le; 14 Hari</span></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Band Penutup -->
+        <section class="max-w-[1440px] mx-auto px-5 md:px-12 pb-20">
+          <div class="p-6 md:p-8 rounded-xl bg-[#1f1f24] border border-[#4d4635]/40 flex flex-col md:flex-row items-center justify-between gap-6 shadow-lg">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-full bg-[#f2ca50]/10 flex items-center justify-center text-[#f2ca50] shrink-0"><span class="material-symbols-outlined text-[24px]">balance</span></div>
+              <div class="flex flex-col"><span class="font-semibold text-[15px] text-[#e3e2e8]">Butuh Audiensi Tatap Muka di Kantor Anda?</span><span class="text-[13px] text-[#d0c5af]">Managing Partner dan Tax Counsel kami menyediakan agenda kunjungan eksekutif bagi jajaran Direksi &amp; Dewan Komisaris.</span></div>
+            </div>
+            <a class="px-6 py-3 rounded bg-[#292a2e] hover:bg-[#343439] text-[#e3e2e8] hover:text-[#f2ca50] transition-all text-[13px] font-semibold whitespace-nowrap shadow-md" href="https://wa.me/6287817582369?text=Halo%20TNS,%20kami%20ingin%20mengagendakan%20audiensi%20tatap%20muka%20untuk%20Direksi." rel="noopener noreferrer" target="_blank">Jadwalkan Audiensi Direksi</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="w-full bg-[#0d0e12] border-t border-[#4d4635]/40 text-[#d0c5af]">
+    <div class="max-w-[1440px] mx-auto px-5 md:px-12 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-10 mb-16">
+        <div class="flex flex-col gap-4">
+          <span class="tns-logo-chip self-start"><img alt="Logo Kartu Nama TNS" class="tns-logo-mark" src="assets/tns-logo-white-transparent.png" /></span>
+          <div class="flex flex-col gap-1">
+            <h4 class="font-semibold text-[16px] text-[#e3e2e8] uppercase">PT. Terang Nusantara Sentosa</h4>
+            <p class="text-[13px] text-[#d0c5af] leading-relaxed">Konsultan Pajak &amp; Tata Kelola Finansial Terpercaya. Memberikan kepastian kepatuhan fiskal, advokasi legalitas pajak, dan penataan struktur finansial korporasi serta high-net-worth individuals dengan integritas prima.</p>
+          </div>
+          <div class="flex flex-wrap gap-2 pt-1">
+            <span class="inline-flex items-center px-2.5 py-1 rounded bg-[#1f1f24] border border-[#4d4635]/60 text-[11px] font-bold tracking-[0.08em] uppercase text-[#e4c277]">BKP Tingkat C</span>
+            <span class="inline-flex items-center px-2.5 py-1 rounded bg-[#1f1f24] border border-[#4d4635]/60 text-[11px] font-bold tracking-[0.08em] uppercase text-[#e4c277]">IKPI Terdaftar</span>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-4">
+          <h5 class="text-[11px] font-bold uppercase tracking-wider text-[#e4c277] border-b border-[#4d4635]/30 pb-2">Navigasi Cepat</h5>
+          <ul class="flex flex-col gap-2 text-[13px]">
+            <li><a href="index.html" class="hover:text-[#f2ca50] transition-colors">Beranda</a></li>
+            <li><a href="tentang-kami.html" class="hover:text-[#f2ca50] transition-colors">Tentang Kami</a></li>
+            <li><a href="layanan.html" class="hover:text-[#f2ca50] transition-colors">Layanan &amp; Solusi</a></li>
+            <li><a href="klien-testimoni.html" class="hover:text-[#f2ca50] transition-colors">Klien &amp; Testimoni</a></li>
+            <li><a href="kontak.html" class="hover:text-[#f2ca50] transition-colors">Hubungi Kantor Kami</a></li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-4">
+          <h5 class="text-[11px] font-bold uppercase tracking-wider text-[#e4c277] border-b border-[#4d4635]/30 pb-2">Layanan Unggulan</h5>
+          <ul class="flex flex-col gap-2 text-[13px]">
+            <li><a href="layanan.html" class="hover:text-[#f2ca50] transition-colors">Konsultasi &amp; Perencanaan Pajak</a></li>
+            <li><a href="layanan.html" class="hover:text-[#f2ca50] transition-colors">Pelaporan SPT Masa &amp; Tahunan</a></li>
+            <li><a href="layanan.html" class="hover:text-[#f2ca50] transition-colors">Pendampingan Pemeriksaan Pajak</a></li>
+            <li><a href="layanan.html" class="hover:text-[#f2ca50] transition-colors">Restitusi Pajak Korporasi</a></li>
+            <li><a href="layanan.html" class="hover:text-[#f2ca50] transition-colors">Transfer Pricing Documentation (TP Doc)</a></li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-4">
+          <h5 class="text-[11px] font-bold uppercase tracking-wider text-[#e4c277] border-b border-[#4d4635]/30 pb-2">Kantor &amp; Kontak</h5>
+          <div class="flex flex-col gap-3 text-[13px]">
+            <div class="flex items-start gap-2"><span class="material-symbols-outlined text-[18px] text-[#f2ca50] shrink-0 mt-0.5">location_on</span><span class="leading-relaxed">Ruko Mutiara Garuda Blok C12 No. 4B, Kampung Melayu Timur, Teluknaga, Kab. Tangerang, Banten 15510</span></div>
+            <div class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-[#f2ca50] shrink-0">phone</span><span>Telp / WA: <a class="text-[#e3e2e8] hover:text-[#f2ca50] transition-colors font-semibold tabular-nums" href="https://wa.me/6287817582369" target="_blank" rel="noopener noreferrer">+62 878-1758-2369</a></span></div>
+            <div class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-[#f2ca50] shrink-0">mail</span><span>Email: <a class="text-[#e3e2e8] hover:text-[#f2ca50] transition-colors" href="mailto:deasy@tnsconsulting.co.id">deasy@tnsconsulting.co.id</a></span></div>
+            <div class="flex items-center gap-2"><span class="material-symbols-outlined text-[18px] text-[#f2ca50] shrink-0">schedule</span><span>Jam Kerja: Senin - Jumat 08:30 - 17:30 WIB</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-6 border-t border-[#4d4635]/30 flex flex-col md:flex-row items-center justify-between gap-4 text-center md:text-left text-[12px]">
+        <div class="flex flex-col gap-1">
+          <p class="text-[#d0c5af]">&copy; 2026 PT. Terang Nusantara Sentosa. All rights reserved.</p>
+          <p class="text-[#d0c5af]/80">By <a class="text-[#e3e2e8] hover:text-[#f2ca50] underline underline-offset-4 transition-colors font-medium" href="https://immcreates.my.id" rel="noopener noreferrer" target="_blank">https://immcreates.my.id</a></p>
+        </div>
+        <p class="text-[#d0c5af]/70 max-w-xl text-center md:text-right">Informasi dan konsultasi yang disajikan tunduk pada ketentuan hukum perpajakan Republik Indonesia yang berlaku dan standar kode etik Ikatan Konsultan Pajak Indonesia (IKPI).</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="floatingWa" class="fixed bottom-6 right-6 z-40 flex items-center gap-3">
+    <div id="waTooltip" class="hidden sm:flex flex-col bg-[#1f1f24] border border-[#4d4635] text-[#e3e2e8] p-3 rounded-lg shadow-xl text-[12px] max-w-[200px]">
+      <span class="font-semibold text-[#f2ca50]">Hotline Prioritas TNS</span>
+      <span class="text-[#d0c5af]">Konsultasi langsung bersama tim fiskal via WhatsApp</span>
+    </div>
+    <a href="https://wa.me/6287817582369?text=Halo%20PT.%20Terang%20Nusantara%20Sentosa,%20saya%20ingin%20berkonsultasi%20mengenai%20masalah%20perpajakan%20perusahaan." target="_blank" rel="noopener noreferrer" class="w-14 h-14 rounded-full bg-[#d4af37] hover:bg-[#f2ca50] text-[#554300] flex items-center justify-center shadow-[0_4px_24px_rgba(212,175,55,0.4)] hover:scale-108 transition-all" aria-label="Hubungi Konsultan via WhatsApp">
+      <span class="material-symbols-outlined text-[28px]">chat</span>
+    </a>
+  </div>
+
+  <div id="consultationModal" class="hidden fixed inset-0 z-50 items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
+    <div class="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto bg-[#1a1b20] border border-[#4d4635] rounded-xl shadow-2xl p-6 md:p-8 text-[#e3e2e8]">
+      <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#d4af37] via-[#f2ca50] to-[#d4af37]"></div>
+      <button onclick="closeConsultationModal()" class="absolute top-4 right-4 text-[#d0c5af] hover:text-[#f2ca50] p-1.5 rounded-lg bg-[#1f1f24] hover:bg-[#292a2e] transition-colors"><span class="material-symbols-outlined text-[20px]">close</span></button>
+
+      <div id="modalFormView">
+        <div class="mb-6 space-y-1">
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded bg-[#292a2e] text-[#e4c277] text-[11px] font-bold tracking-wider uppercase"><span class="material-symbols-outlined text-[14px] text-[#f2ca50]">lock</span><span>Kerahasiaan Tingkat Tinggi Terjamin (NDA)</span></div>
+          <h3 class="font-['Playfair_Display'] text-[24px] md:text-[28px] font-semibold text-[#e3e2e8]">Jadwalkan Konsultasi Rahasia</h3>
+          <p class="text-[13px] text-[#d0c5af] leading-relaxed">Diskusikan mitigasi audit, SP2DK, restrukturisasi keuangan, maupun transfer pricing bersama Dewan Konsultan Berizin BKP C.</p>
+        </div>
+
+        <form onsubmit="handleConsultationSubmit(event)" class="space-y-4 text-[14px]">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="space-y-1">
+              <label class="text-[13px] font-semibold text-[#e3e2e8]">Nama Lengkap &amp; Gelar <span class="text-[#f2ca50]">*</span></label>
+              <input id="modalFullName" type="text" required placeholder="misal: Hendra Wijaya, S.E." class="w-full bg-[#121317] border border-[#4d4635]/60 rounded px-3 py-2.5 text-[#e3e2e8] placeholder-[#99907c] focus:outline-none focus:border-[#d4af37]" />
+            </div>
+            <div class="space-y-1">
+              <label class="text-[13px] font-semibold text-[#e3e2e8]">Nama Perusahaan / Korporat <span class="text-[#f2ca50]">*</span></label>
+              <input id="modalCompanyName" type="text" required placeholder="misal: PT Cahaya Mega Global" class="w-full bg-[#121317] border border-[#4d4635]/60 rounded px-3 py-2.5 text-[#e3e2e8] placeholder-[#99907c] focus:outline-none focus:border-[#d4af37]" />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="space-y-1">
+              <label class="text-[13px] font-semibold text-[#e3e2e8]">Email Resmi Perusahaan <span class="text-[#f2ca50]">*</span></label>
+              <input type="email" required placeholder="direksi@company.co.id" class="w-full bg-[#121317] border border-[#4d4635]/60 rounded px-3 py-2.5 text-[#e3e2e8] placeholder-[#99907c] focus:outline-none focus:border-[#d4af37]" />
+            </div>
+            <div class="space-y-1">
+              <label class="text-[13px] font-semibold text-[#e3e2e8]">Nomor WhatsApp Aktif <span class="text-[#f2ca50]">*</span></label>
+              <input type="tel" required placeholder="+62 812-xxxx-xxxx" class="w-full bg-[#121317] border border-[#4d4635]/60 rounded px-3 py-2.5 text-[#e3e2e8] placeholder-[#99907c] focus:outline-none focus:border-[#d4af37]" />
+            </div>
+          </div>
+
+          <div class="space-y-1">
+            <label class="text-[13px] font-semibold text-[#e3e2e8]">Kebutuhan Layanan Spesifik <span class="text-[#f2ca50]">*</span></label>
+            <select id="modalServiceSelect" class="w-full bg-[#121317] border border-[#4d4635]/60 rounded px-3 py-2.5 text-[#e3e2e8] focus:outline-none focus:border-[#d4af37] cursor-pointer">
+              <option value="perencanaan-pajak">Konsultasi &amp; Perencanaan Pajak (Tax Planning)</option>
+              <option value="pelaporan-spt-coretax">Pelaporan SPT Masa &amp; Tahunan (Kesiapan Coretax DJP)</option>
+              <option value="pemeriksaan-sp2dk">Pendampingan Pemeriksaan SP2DK / Tanggapan SPHP</option>
+              <option value="restitusi-korporasi">Restitusi Pajak Ekspor &amp; Korporasi (PPN / PPh Badan)</option>
+              <option value="keberatan-banding-pengadilan">Keberatan, Banding, &amp; Kuasa Hukum Pengadilan Pajak</option>
+              <option value="due-diligence-ma">Tax Due Diligence &amp; Restrukturisasi Merger / Akuisisi</option>
+              <option value="transfer-pricing">Transfer Pricing Documentation (TP Doc PMK 172/2023)</option>
+              <option value="pajak-internasional">Konsultasi Pajak Internasional &amp; Tax Treaty P3B</option>
+            </select>
+          </div>
+
+          <div class="space-y-1">
+            <label class="text-[13px] font-semibold text-[#e3e2e8]">Ringkasan Kebutuhan / Perkara Pajak</label>
+            <textarea rows="3" placeholder="Ceritakan latar belakang, potensi eksposur pajak, atau batas waktu surat DJP jika ada..." class="w-full bg-[#121317] border border-[#4d4635]/60 rounded p-3 text-[#e3e2e8] placeholder-[#99907c] focus:outline-none focus:border-[#d4af37] resize-none"></textarea>
+          </div>
+
+          <div class="flex items-start gap-2.5 p-3 rounded bg-[#1f1f24] text-[12px] text-[#d0c5af]">
+            <input type="checkbox" id="modalNda" checked required class="mt-0.5 w-4 h-4 rounded accent-[#d4af37] cursor-pointer" />
+            <label for="modalNda" class="cursor-pointer leading-relaxed">Saya menyetujui bahwa informasi ini dikirimkan kepada tim PT. Terang Nusantara Sentosa dengan perlindungan kerahasiaan penuh di bawah etika Ikatan Konsultan Pajak Indonesia (IKPI).</label>
+          </div>
+
+          <div class="pt-2 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <button id="modalSubmitBtn" type="submit" class="w-full sm:w-auto px-6 py-3 rounded bg-[#d4af37] hover:bg-[#f2ca50] text-[#554300] font-bold text-[14px] uppercase tracking-wider transition-all shadow-[0_0_16px_rgba(212,175,55,0.25)] flex items-center justify-center gap-2">
+              <span id="modalSubmitLabel">Kirimkan Permohonan</span>
+              <span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+            </button>
+            <button type="button" onclick="handleWhatsAppDirect()" class="w-full sm:w-auto px-4 py-3 rounded bg-[#292a2e] hover:bg-[#343439] text-[#e3e2e8] hover:text-[#f2ca50] text-[13px] font-semibold transition-colors flex items-center justify-center gap-1.5">
+              <span class="material-symbols-outlined text-[#f2ca50] text-[18px]">chat</span><span>WhatsApp Instan</span>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div id="modalSuccessView" class="hidden py-8 text-center space-y-4">
+        <div class="w-16 h-16 mx-auto rounded-full bg-[#5d4604]/50 border border-[#f2ca50] flex items-center justify-center text-[#f2ca50]"><span class="material-symbols-outlined text-[36px]">verified</span></div>
+        <h3 class="font-['Playfair_Display'] text-[24px] font-semibold text-[#e3e2e8]">Permohonan Advis Berhasil Terkirim</h3>
+        <p class="text-[14px] text-[#d0c5af] max-w-md mx-auto leading-relaxed">Terima kasih <strong id="successFullName" class="text-[#f2ca50]"></strong>. Data Anda telah kami daftarkan dengan proteksi Non-Disclosure Agreement (NDA). Partner senior PT. Terang Nusantara Sentosa akan segera menghubungi Anda melalui nomor telepon / WhatsApp yang diberikan.</p>
+        <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3">
+          <button onclick="handleWhatsAppDirect()" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 rounded bg-[#d4af37] text-[#554300] font-bold text-[14px] uppercase tracking-wider hover:bg-[#f2ca50] transition-all"><span class="material-symbols-outlined text-[18px]">chat</span><span>Lanjutkan ke WhatsApp</span></button>
+          <button onclick="closeConsultationModal()" class="w-full sm:w-auto px-6 py-3 rounded bg-[#292a2e] text-[#e3e2e8] hover:text-[#f2ca50] font-semibold text-[14px] transition-colors">Tutup Jendela</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/site.js"></script>
+</body>
+</html>
