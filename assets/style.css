@@ -76,15 +76,13 @@ html, body {
   z-index: 1;
 }
 
-/* Soft backdrop chip so the white logo doesn't float alone on the dark background */
+/* Logo wrapper: transparent, blends with whatever dark background it sits on */
 .tns-logo-chip {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 48px;
   height: 48px;
-  border-radius: 9999px;
-  background: radial-gradient(circle at 35% 30%, rgba(242, 202, 80, 0.14), rgba(13, 14, 18, 0.9) 70%);
-  border: 1px solid rgba(212, 175, 55, 0.25);
+  background: transparent;
   flex-shrink: 0;
 }
