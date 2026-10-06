@@ -1,0 +1,90 @@
+/* ===== TNS Tax Consulting — Shared Styles ===== */
+/* Tailwind utility classes are loaded via CDN in each HTML file's <head>.
+   This file only holds things Tailwind's CDN can't generate on its own. */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #121317;
+  color: #e3e2e8;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0e12;
+}
+::-webkit-scrollbar-thumb {
+  background: #292a2e;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Infinite marquee for client logos */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 30s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Simple fade-in for modal / mobile drawer (replaces tailwindcss-animate) */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.fade-in {
+  animation: fadeIn 0.2s ease-out;
+}
+
+/* Utility used by Header/Footer logo mark */
+.tns-logo-mark {
+  height: 34px;
+  width: auto;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
+}
+
+/* Soft backdrop chip so the white logo doesn't float alone on the dark background */
+.tns-logo-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 9999px;
+  background: radial-gradient(circle at 35% 30%, rgba(242, 202, 80, 0.14), rgba(13, 14, 18, 0.9) 70%);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  flex-shrink: 0;
+}
